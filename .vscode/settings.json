@@ -1,0 +1,29 @@
+{
+    "files.autoSave": "onFocusChange",
+      "editor.minimap.enabled": true,
+      "workbench.statusBar.visible": true,
+      "workbench.activityBar.visible": true,
+      "editor.formatOnSave": true,
+  
+      "workbench.colorCustomizations": {
+        "statusBar.background": "#333333",
+        "statusBar.noFolderBackground": "#333333",
+        "statusBar.debuggingBackground": "#263238"
+      },
+      "editor.fontSize": 16,
+  
+      "css.validate": false,
+      "scss.validate": false,
+      "less.validate": false,
+      "editor.wordWrap": "on",
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "liveServer.settings.donotShowInfoMsg": true,
+      "window.zoomLevel": 3,
+     "workbench.colorTheme": "Outrun Night",
+      "workbench.iconTheme": "material-icon-theme",
+      "editor.parameterHints.enabled": false,
+      "explorer.compactFolders": false,
+      "sync.gist": "9b6da446037fce6191d45be183d6b452"
+    }

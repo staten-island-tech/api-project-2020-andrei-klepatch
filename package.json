@@ -1,0 +1,25 @@
+{
+  "name": "api-project-2020-andrei-klepatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staten-island-tech/api-project-2020-andrei-klepatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staten-island-tech/api-project-2020-andrei-klepatch/issues"
+  },
+  "homepage": "https://github.com/staten-island-tech/api-project-2020-andrei-klepatch#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
