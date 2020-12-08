@@ -61,7 +61,6 @@ async function dataCall(inputstring, range) {
     try {
       DOMSelectors.title.style.display = "none";
       DOMSelectors.dropDownButton.style.display = "inline";
-      DOMSelectors.dropDownButton.value = `${dateRange} Days`;
       generateGraph(data, dateRange, inputstring);
     } catch (error) {
       console.log(error);
@@ -70,6 +69,7 @@ async function dataCall(inputstring, range) {
 }
 
 function generateGraph(data, dateRange, inputstring) {
+  DOMSelectors.dropDownButton.value = `${dateRange} Days`;
   timeSeries = data["Time Series (Daily)"];
   var closingPrices = [];
   var dates = Object.keys(timeSeries).reverse();

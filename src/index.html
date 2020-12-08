@@ -4,15 +4,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.scss">
     <title>Document</title>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 <body>
-    <div class="Body">
-        <h1><s>S&W500 Index</s>Temp cat picture</h1>
-        <input type="button" class="generate-btn btn" value="Generate Image">
+    <div class="display-container">
+        <h1 id="title">Commodity Information Lookup</h1>
+        <input type="text" id="text-input" placeholder="Search..">
+        <input type="button" class="search-btn btn" value="Search">
+        <div class="dropdown">
+            <input type="button" class="drop-down-btn btn" value="7 Days">
+            <div class="dropdown-content">
+                <input type="button" id="seven-days" value="7 Days">
+                <input type="button" id="fourteen-days" value="14 Days">
+                <input type="button" id="thirty-days" value="30 Days">
+            </div>
+        </div>
     </div>
-    <div class="Display">
-        
-    </div>
-    <script src="functionalcall.js"></script>
+    <canvas id="chart"></canvas>
+</canvas>
+    <script src="index.js"></script>
 </body>
 </html>

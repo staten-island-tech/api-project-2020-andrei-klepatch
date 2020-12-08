@@ -23,7 +23,11 @@
     "@plotex/render-dom": "^1.0.2",
     "chart.js": "^2.9.4",
     "data-forge": "^1.8.12",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^1.12.4",
     "plot": "^1.0.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
   }
 }
